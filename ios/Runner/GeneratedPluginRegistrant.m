@@ -64,8 +64,8 @@
 @import google_sign_in;
 #endif
 
-#if __has_include(<image_picker/ImagePickerPlugin.h>)
-#import <image_picker/ImagePickerPlugin.h>
+#if __has_include(<image_picker/FLTImagePickerPlugin.h>)
+#import <image_picker/FLTImagePickerPlugin.h>
 #else
 @import image_picker;
 #endif

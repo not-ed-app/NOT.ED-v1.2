@@ -24,6 +24,9 @@
       <excludeFolder url="file://$MODULE_DIR$/NOT.ED-v1.1/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/NOT.ED-v1.1/build" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/noted/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/noted/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/noted/build" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

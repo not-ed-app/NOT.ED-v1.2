@@ -21,39 +21,39 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_plugin_pdf_viewer:
-  
-  url_launcher: 
-  file_picker: ^1.13.0+1
-  firebase_core: 
-  firebase_auth: 
-  
+
+  url_launcher:
+  file_picker: ^2.1.0
+  firebase_core:
+  firebase_auth:
+
   device_preview:
-  
-  google_sign_in: ^4.5.1
-  shared_preferences: ^0.5.8
-   
-  flutter_auth_buttons: ^0.9.0
-  
-  uuid: ^2.2.0
-  flutter_native_image: ^0.0.5
-  image_picker: ^0.5.3+1
+
+  google_sign_in: ^4.5.6
+  shared_preferences: ^0.5.12+4
+
+  flutter_auth_buttons: ^0.10.0
+
+  uuid: ^2.2.2
+  flutter_native_image: ^0.0.5+3
+  image_picker: ^0.6.7+14
   fluttertoast:
   firebase_storage:
-  cloud_firestore: ^0.14.0+2
-  connectivity: ^0.4.9 
+  cloud_firestore: ^0.14.3
+  connectivity: ^2.0.2
 
 dev_dependencies:
-  flutter_launcher_icons: "^0.7.3"
+  flutter_launcher_icons: ^0.8.1
 
 flutter_icons:
-    image_path_android: "assets/mainlogo.png"
-    image_path_ios: "assets/mainlogo.png"
-    android: true # can specify file name here e.g. "ic_launcher"
-    ios: true # can specify file name here e.g. "My-Launcher-Icon"
-    adaptive_icon_background: "assets/mainlogo.png" # only available for Android 8.0 devices and above
-    adaptive_icon_foreground: "assets/mainlogo.png" # only available for Android 8.0 devices and aboveflutter_test:
+  image_path_android: "assets/mainlogo.png"
+  image_path_ios: "assets/mainlogo.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  adaptive_icon_background: "assets/mainlogo.png" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/mainlogo.png" # only available for Android 8.0 devices and aboveflutter_test:
 flutter_test:
-    sdk: flutter
+  sdk: flutter
 
 
 # For information on the generic Dart part of this file, see the
