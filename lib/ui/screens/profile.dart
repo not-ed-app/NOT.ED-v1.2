@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noted_app/ui/about.dart';
+import 'about.dart';
 import 'package:url_launcher/url_launcher.dart';
 // import 'dart:async';
 // import 'dart:io';

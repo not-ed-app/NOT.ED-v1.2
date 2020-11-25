@@ -8,21 +8,23 @@ import 'package:noted_app/ui/screens/splash_screen.dart';
 class NotedApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    var materialApp = MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'NOT.ED',
-      // theme: buildTheme(),
-     theme: ThemeData(
-       // Define the default brightness and colors.
-       // brightness: Brightness.dark,
-       // primaryColor: Colors.grey[850],
-       appBarTheme: AppBarTheme(elevation: 0.1, color: Colors.black87),
-       accentColor: Colors.deepOrange[400],
-     ),
-      //darkTheme: ThemeData.dark(),
-      // New code
-      //initialRoute: '/login',
-      //initialRoute: 'Home()',
+      theme: ThemeData(
+        brightness: Brightness.light,
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: AppBarTheme(elevation: 0.1, color: Colors.black),
+        accentColor: Colors.deepOrangeAccent,
+      ),
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+        scaffoldBackgroundColor: Colors.black,
+        appBarTheme: AppBarTheme(elevation: 0.1, color: Colors.black),
+        accentColor: Colors.deepOrangeAccent,
+      ),
+      themeMode: ThemeMode.light,
+      // ThemeMode.system to follow system theme,
       initialRoute: '/',
       routes: {
         '/': (context) => Home(),
@@ -38,5 +40,6 @@ class NotedApp extends StatelessWidget {
         //'/': (context) => LoginScreen(),
       },
     );
+    return materialApp;
   }
 }

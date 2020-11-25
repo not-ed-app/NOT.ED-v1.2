@@ -127,7 +127,7 @@ class Home extends StatefulWidget {
 //class searchSuggestions extends StatelessWidget{}
 
 class MyAppState extends State<Home> {
-  int _selectedTab = 0;
+  int _selectedTab = 1;
   final _pageOptions = [
     Landing(),
     Library(),
@@ -139,7 +139,6 @@ class MyAppState extends State<Home> {
     return Scaffold(
         resizeToAvoidBottomInset: false,
         appBar: AppBar(
-          //backgroundColor: Colors.grey[850],
           title: Image(
             image: AssetImage("assets/logowithtexttoright.png"),
             height: 20.0,
@@ -160,39 +159,32 @@ class MyAppState extends State<Home> {
 
         body:
          _pageOptions[_selectedTab],
-        bottomNavigationBar: Theme(
-          data: Theme.of(context).copyWith(
-              // sets the background color of the `BottomNavigationBar`
-              // sets the active color of the `BottomNavigationBar` if `Brightness` is light
-              primaryColor: Colors.deepOrange[400],
-              textTheme: Theme.of(context)
-                  .textTheme
-                  .copyWith(caption: new TextStyle(color: Colors.grey[400]))),
-          // sets the inactive color of the `BottomNavigationBar`*/
-          child: new BottomNavigationBar(
-            currentIndex: _selectedTab,
-            onTap: (int index) {
-              setState(() {
-                _selectedTab = index;
-              });
-            },
-            items: [
-              BottomNavigationBarItem(
-                icon: Icon(Icons.home),
-                title: Text('Home'),
+        bottomNavigationBar: new BottomNavigationBar(
+          backgroundColor: Colors.grey[900],
+          selectedItemColor: Colors.deepOrangeAccent,
+          unselectedItemColor: Colors.grey[400],
+          currentIndex: _selectedTab,
+          onTap: (int index) {
+            setState(() {
+              _selectedTab = index;
+            });
+          },
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              label: "Home",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.featured_play_list),
+              label: "Activity",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.face,
               ),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.featured_play_list),
-                title: Text('Activity'),
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.face,
-                ),
-                title: Text('Profile'),
-              ),
-            ],
-          ),
+              label: "Profile",
+            ),
+          ],
         ));
     //);
   }
