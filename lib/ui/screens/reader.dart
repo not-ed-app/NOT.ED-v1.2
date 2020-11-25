@@ -17,9 +17,20 @@ class PDFReader extends State<Reader> {
         children: <Widget>[
           Expanded(
             child: Center(
-              child: _isInit? Text('Press Load', style: TextStyle(fontSize: 25,),)
-                  : _isLoading? Center(child: CircularProgressIndicator(),)
-                  : PDFViewer(document: document,),
+              child: _isInit
+                  ? Text(
+                      'Press Load',
+                      style: TextStyle(
+                        fontSize: 25,
+                      ),
+                    )
+                  : _isLoading
+                      ? Center(
+                          child: CircularProgressIndicator(),
+                        )
+                      : PDFViewer(
+                          document: document,
+                        ),
             ),
           ),
           Row(
@@ -68,9 +79,7 @@ class PDFReader extends State<Reader> {
       _isInit = false; //remove Text
       _isLoading = true; //show loading
     });
-    document = await PDFDocument.fromURL(
-        'https://file-examples.com/wp-content/uploads/2017/10/file-sample_150kB.pdf');
-        //'https://www.princexml.com/samples/catalog/PrinceCatalogue.pdf');
+    document = await PDFDocument.fromURL('https://www.cfa.harvard.edu/seuforum/howfar/HowBigUniverse.pdf');
 
     setState(() {
       _isLoading = false; //remove loading

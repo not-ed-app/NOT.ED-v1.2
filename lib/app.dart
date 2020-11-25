@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noted_app/ui/screens/login.dart';
-import 'package:noted_app/ui/screens/signin.dart';
-import 'package:noted_app/ui/screens/signup.dart';
-import 'package:noted_app/ui/screens/home.dart';
-import 'package:noted_app/ui/screens/splash_screen.dart';
+import 'package:noted_app/ui/screens/landing.dart';
 
 class NotedApp extends StatelessWidget {
   @override
@@ -13,31 +9,25 @@ class NotedApp extends StatelessWidget {
       title: 'NOT.ED',
       theme: ThemeData(
         brightness: Brightness.light,
-        scaffoldBackgroundColor: Colors.white,
         appBarTheme: AppBarTheme(elevation: 0.1, color: Colors.black),
+        scaffoldBackgroundColor: Colors.white,
+        cardColor: Colors.white,
         accentColor: Colors.deepOrangeAccent,
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
-        scaffoldBackgroundColor: Colors.black,
         appBarTheme: AppBarTheme(elevation: 0.1, color: Colors.black),
+        scaffoldBackgroundColor: Colors.black,
+        cardColor: Colors.grey[900],
         accentColor: Colors.deepOrangeAccent,
       ),
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.system,
       // ThemeMode.system to follow system theme,
       initialRoute: '/',
       routes: {
-        '/': (context) => Home(),
+        '/': (context) => Landing(),
 //        '/': (context) => SplashScreen(),
-        '/login': (context) => LoginScreen(),
-        '/home': (context) => Home(),
-        '/signin': (context) => SignIn(),
-        '/signup': (context) => SignUp(),
-
-        // If you're using navigation routes, Flutter needs a base route.
-        // We're going to change this route once we're ready with
-        // implementation of HomeScreen.
-        //'/': (context) => LoginScreen(),
+        '/landing': (context) => Landing(),
       },
     );
     return materialApp;

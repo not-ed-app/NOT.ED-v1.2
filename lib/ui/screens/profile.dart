@@ -17,7 +17,7 @@ class Profile extends StatelessWidget {
           child: Row(
             children: <Widget>[
               Container(width: 40.0, child: Icon(
-                  IconData(iconCode, fontFamily: 'MaterialIcons',), color: Colors.grey,)),
+                  IconData(iconCode, fontFamily: 'MaterialIcons'))),
               Padding(
                 padding: const EdgeInsets.only(left: 20.0),
                 child: Text(text, style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),),
@@ -76,11 +76,10 @@ class Profile extends StatelessWidget {
                   child: Row(
                     children: <Widget>[
                       Container(width: 40.0, child: Icon(
-                        IconData(0xe2c3, fontFamily: 'MaterialIcons',), color: Colors.grey,)),
+                        IconData(60073, fontFamily: 'MaterialIcons'))),
                       Padding(
                         padding: const EdgeInsets.only(left: 20.0),
                         child: GestureDetector(
-                          // onTap: () => _getfile(),
                             child: Text("Upload", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),)),
                       ),
                     ],
@@ -96,7 +95,7 @@ class Profile extends StatelessWidget {
                   child: Row(
                     children: <Widget>[
                       Container(width: 40.0, child: Icon(
-                        IconData(0xe02f, fontFamily: 'MaterialIcons',), color: Colors.grey,)),
+                        IconData(59407, fontFamily: 'MaterialIcons'))),
                       Padding(
                         padding: const EdgeInsets.only(left: 20.0),
                         child: Text("Purchased notes", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),),
@@ -114,7 +113,7 @@ class Profile extends StatelessWidget {
                   child: Row(
                     children: <Widget>[
                       Container(width: 40.0, child: Icon(
-                        IconData(0xe39d, fontFamily: 'MaterialIcons',), color: Colors.grey,)),
+                        IconData(0xe39d, fontFamily: 'MaterialIcons'))),
                       Padding(
                         padding: const EdgeInsets.only(left: 20.0),
                         child: Text("Uploaded notes", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),),
@@ -132,7 +131,7 @@ class Profile extends StatelessWidget {
                   child: Row(
                     children: <Widget>[
                       Container(width: 40.0, child: Icon(
-                        IconData(0xe933, fontFamily: 'MaterialIcons',), color: Colors.grey,)),
+                        IconData(59982, fontFamily: 'MaterialIcons'))),
                       Padding(
                         padding: const EdgeInsets.only(left: 20.0),
                         child: Text("Switch accounts", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),),
@@ -143,7 +142,7 @@ class Profile extends StatelessWidget {
               ),
 
               //CamScanner
-              ExternalAppicationLink("CamScanner", 0xe879, 'https://play.google.com/store/apps/details?id=com.intsig.camscanner'),
+              ExternalAppicationLink("Adobe Scan", 0xe879, 'https://acrobat.adobe.com/in/en/mobile/scanner-app.html'),
 
               //Line
               Container(
@@ -159,7 +158,7 @@ class Profile extends StatelessWidget {
                   child: Row(
                     children: <Widget>[
                       Container(width: 40.0, child: Icon(
-                        IconData(0xe8b8, fontFamily: 'MaterialIcons',), color: Colors.grey,)),
+                        IconData(62530, fontFamily: 'MaterialIcons'))),
                       Padding(
                         padding: const EdgeInsets.only(left: 20.0),
                         child: Text("Settings", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),),
@@ -176,7 +175,7 @@ class Profile extends StatelessWidget {
                   child: Row(
                     children: <Widget>[
                       Container(width: 40.0, child: Icon(
-                        IconData(0xe88e, fontFamily: 'MaterialIcons',), color: Colors.grey,)),
+                        IconData(59353, fontFamily: 'MaterialIcons'))),
                       Padding(
                         padding: const EdgeInsets.only(left: 20.0),
                         child: Text("About", style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w400),),
