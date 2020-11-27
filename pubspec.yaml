@@ -26,9 +26,8 @@ dependencies:
   file_picker: ^2.1.0
   firebase_core:
   firebase_auth:
-
   device_preview:
-
+  intl: ^0.16.1
   google_sign_in: ^4.5.6
   shared_preferences: ^0.5.12+4
 
@@ -39,7 +38,7 @@ dependencies:
   image_picker: ^0.6.7+14
   fluttertoast:
   firebase_storage:
-  cloud_firestore: ^0.14.3
+  cloud_firestore: ^0.14.3+1
   connectivity: ^2.0.2
 
 dev_dependencies:

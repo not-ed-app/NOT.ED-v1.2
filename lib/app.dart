@@ -9,7 +9,8 @@ class NotedApp extends StatelessWidget {
       title: 'NOT.ED',
       theme: ThemeData(
         brightness: Brightness.light,
-        appBarTheme: AppBarTheme(elevation: 0.1, color: Colors.black),
+        appBarTheme: AppBarTheme(elevation: 1, color: Colors.black),
+        bottomNavigationBarTheme: BottomNavigationBarThemeData(backgroundColor: Colors.white, unselectedItemColor: Colors.black),
         scaffoldBackgroundColor: Colors.white,
         cardColor: Colors.white,
         accentColor: Colors.deepOrangeAccent,
@@ -17,6 +18,7 @@ class NotedApp extends StatelessWidget {
       darkTheme: ThemeData(
         brightness: Brightness.dark,
         appBarTheme: AppBarTheme(elevation: 0.1, color: Colors.black),
+        bottomNavigationBarTheme: BottomNavigationBarThemeData(backgroundColor: Colors.grey[900], unselectedItemColor: Colors.white),
         scaffoldBackgroundColor: Colors.black,
         cardColor: Colors.grey[900],
         accentColor: Colors.deepOrangeAccent,

@@ -2,7 +2,10 @@
   <dictionary name="gokul">
     <words>
       <w>appication</w>
+      <w>firestore</w>
+      <w>librarysubjectdetail</w>
       <w>librarysubjectmodel</w>
+      <w>pdflist</w>
       <w>searchedsubjectdetail</w>
       <w>searchedsubjectmodel</w>
       <w>signin</w>

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:noted_app/ui/screens/pdfList.dart';
 import 'package:noted_app/ui/screens/profile.dart';
 import 'package:noted_app/ui/screens/library.dart';
 import 'package:noted_app/ui/screens/home.dart';
+// import 'pdflist.dart';
 
 // import './searchedsubjectmodel.dart';
 // import './searchedsubject.dart';
@@ -128,7 +130,8 @@ class Landing extends StatefulWidget {
 class MyAppState extends State<Landing> {
   int _selectedTab = 1;
   final _pageOptions = [
-    Home(),
+    PDFList(),
+    // Home(),
     Library(),
     Profile(),
   ];
@@ -138,9 +141,11 @@ class MyAppState extends State<Landing> {
     return Scaffold(
         resizeToAvoidBottomInset: false,
         appBar: AppBar(
-          title: Image(
-            image: AssetImage("assets/Logo-With-Text-To-Right.png"),
+          title: SizedBox(
             height: 20.0,
+            child: Image(
+              image: AssetImage("assets/Logo-With-Text-To-Right.png"),
+            ),
           ),
           actions: <Widget>[
             IconButton(
@@ -156,9 +161,10 @@ class MyAppState extends State<Landing> {
         ),
         body: _pageOptions[_selectedTab],
         bottomNavigationBar: new BottomNavigationBar(
-          backgroundColor: Colors.grey[900],
+          // backgroundColor: Colors.grey[900],
+          elevation: 10.0,
           selectedItemColor: Colors.deepOrangeAccent,
-          unselectedItemColor: Colors.grey[400],
+          // unselectedItemColor: Colors.grey[400],
           currentIndex: _selectedTab,
           onTap: (int index) {
             setState(() {
