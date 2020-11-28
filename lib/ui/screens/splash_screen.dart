@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:noted_app/ui/screens/home.dart';
+import 'package:noted_app/ui/screens/landing.dart';
 import 'package:noted_app/ui/screens/g_signin.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -38,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => Home(), //detailsUser: details
+          builder: (context) => Landing(), //detailsUser: details
         ),
       );
     } else {

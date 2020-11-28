@@ -1,7 +1,6 @@
 import "package:flutter/material.dart";
 import "./librarysubjectmodel.dart";
 import "./librarysubjectdetail.dart";
-import 'package:cloud_firestore/cloud_firestore.dart';
 
 
 class LibrarySubject extends StatelessWidget {
@@ -18,7 +17,6 @@ class LibrarySubject extends StatelessWidget {
             MaterialPageRoute(
                 builder: (context) => LibrarySubjectDetail(_librarypdf))),
         child: Container(
-          /// Give nice padding
           padding: EdgeInsets.all(10),
           child: Row(
             children: <Widget>[

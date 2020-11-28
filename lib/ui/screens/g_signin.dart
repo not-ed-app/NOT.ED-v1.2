@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:noted_app/ui/screens/home.dart';
+import 'package:noted_app/ui/screens/landing.dart';
 
 void main() => runApp(
     MaterialApp(debugShowCheckedModeBanner: false, home: LoginPageWidget()));
@@ -77,7 +77,7 @@ class LoginPageWidgetState extends State<LoginPageWidget> {
                       //TODO:Skipping button does not redirect to home
                       //FIXME: maybe put a function
                       Navigator.pushReplacement(context,
-                          MaterialPageRoute(builder: (context) => Home()));
+                          MaterialPageRoute(builder: (context) => Landing()));
                       //onGoogleSignIn(context);
                     },
                     color: Colors.white,

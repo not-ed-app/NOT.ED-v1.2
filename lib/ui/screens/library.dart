@@ -3,7 +3,6 @@ import './librarysubjectmodel.dart';
 import './librarysubject.dart';
 
 class Library extends StatelessWidget {
-  @override
   final List _userList = [
     LibrarySubjectModel("Just now", 5,  "Adarsh Mohan", "https://images2.imgbox.com/33/cc/hqwc0Xl6_o.jpg", "Module 2", "Simple and straight-forward", "MA202", "★★★★"),
     LibrarySubjectModel("06-May-2020", 7, "Sanjith Devan", "https://images2.imgbox.com/14/36/ZBy6npHv_o.jpg", "Module 4", "Formulas are highlighted", "CS202", "★★★"),
@@ -21,6 +20,5 @@ class Library extends StatelessWidget {
               ),
         ),
         );
-    return null;
   }
 }

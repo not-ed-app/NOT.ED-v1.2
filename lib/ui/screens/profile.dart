@@ -171,7 +171,7 @@ class Profile extends StatelessWidget {
               //About
               Container(
                 margin: const EdgeInsets.only(top: 30.0, left: 25.0),
-                child: GestureDetector(onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => aboutPage())),
+                child: GestureDetector(onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => AboutPage())),
                   child: Row(
                     children: <Widget>[
                       Container(width: 40.0, child: Icon(

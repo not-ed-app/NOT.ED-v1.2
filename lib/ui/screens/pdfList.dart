@@ -1,18 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import "./librarysubjectdetail.dart";
 import 'package:intl/intl.dart';
 
 class PDFList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    Color pdfThumbnailBorder = Colors.grey[300];
     var brightness = MediaQuery.of(context).platformBrightness;
     bool darkModeOn = brightness == Brightness.dark;
-    Color pdfFillColor = Colors.grey[100];
-    // final darkFill = Colors.grey[200];
     if (darkModeOn == true) {
-      pdfFillColor = Colors.grey[600];
+      pdfThumbnailBorder = Colors.grey[800];
     }
     return Scaffold(
       body: StreamBuilder(
@@ -47,7 +45,6 @@ class PDFList extends StatelessWidget {
                               child: Container(
                                 padding:
                                     EdgeInsets.only(left: 10.0, right: 10.0),
-                                // color: Colors.red,
                                 child: Row(
                                   children: [
                                     Expanded(
@@ -55,7 +52,7 @@ class PDFList extends StatelessWidget {
                                       child: Container(
                                         decoration: BoxDecoration(
                                             border: Border.all(
-                                                color: Colors.grey[300])),
+                                                color: pdfThumbnailBorder)),
                                         child: Image.network(
                                           listOfPdf.data()['image'],
                                           fit: BoxFit.cover,
@@ -67,13 +64,18 @@ class PDFList extends StatelessWidget {
                                       flex: 2,
                                       child: Column(
                                         children: <Widget>[
-                                          Text(
-                                            listOfPdf.data()['title'].toUpperCase(),
-                                            textAlign: TextAlign.center,
-                                            style: TextStyle(
-                                                fontSize: 20.0,
-                                                color: Colors.lightBlueAccent,
-                                                fontWeight: FontWeight.w300),
+                                          Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Text(
+                                              listOfPdf
+                                                  .data()['title']
+                                                  .toUpperCase(),
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(
+                                                  fontSize: 20.0,
+                                                  color: Colors.lightBlueAccent,
+                                                  fontWeight: FontWeight.w300),
+                                            ),
                                           ),
                                           Padding(
                                             padding: const EdgeInsets.all(15.0),
@@ -81,25 +83,27 @@ class PDFList extends StatelessWidget {
                                               listOfPdf.data()['details'],
                                               textAlign: TextAlign.center,
                                               style: TextStyle(
-                                                  fontSize:
-                                                      MediaQuery.of(context)
-                                                              .size
-                                                              .longestSide *
-                                                          0.02,
+                                                  fontSize: 18.0,
                                                   fontWeight: FontWeight.w500),
                                             ),
                                           ),
-                                          Text(
-                                            DateFormat.yMMMd().add_jm().format(
-                                                DateTime.parse(listOfPdf
-                                                    .data()['publishedDate']
-                                                    .toDate()
-                                                    .toString())),
-                                            textAlign: TextAlign.center,
-                                            style: TextStyle(
-                                                fontSize: 16.0,
-                                                color: Colors.orange[300],
-                                                fontWeight: FontWeight.w300),
+                                          Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Text(
+                                              DateFormat.yMMMd()
+                                                  .add_jm()
+                                                  .format(DateTime.parse(
+                                                      listOfPdf
+                                                          .data()[
+                                                              'publishedDate']
+                                                          .toDate()
+                                                          .toString())),
+                                              textAlign: TextAlign.center,
+                                              style: TextStyle(
+                                                  fontSize: 16.0,
+                                                  color: Colors.orange[300],
+                                                  fontWeight: FontWeight.w300),
+                                            ),
                                           ),
                                         ],
                                       ),

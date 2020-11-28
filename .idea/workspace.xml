@@ -19,44 +19,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9d3912e-78b7-47e6-b2ec-9c85c7fa0397" name="Default Changelist" comment="Update pubspec.yaml.">
-      <change afterPath="$PROJECT_DIR$/lib/ui/screens/pdfList.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+    <list default="true" id="e9d3912e-78b7-47e6-b2ec-9c85c7fa0397" name="Default Changelist" comment="Further improvements to pdfList.dart">
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/gokul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/gokul.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/5.6.2/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/screens/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/about.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/about.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/g_signin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/g_signin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/home.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/screens/landing.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/landing.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/library.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/library.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/screens/librarysubject.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/librarysubject.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/pdfList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/pdfList.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/profile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/profile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/screens/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/screens/splash_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606295582657</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Further improvements to pdfList.dart">
+      <created>1606475698887</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606475698887</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +247,8 @@
     <MESSAGE value="Colour theme changes according to system theme." />
     <MESSAGE value="Activity tab card view implementation." />
     <MESSAGE value="Update pubspec.yaml." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update pubspec.yaml." />
+    <MESSAGE value="Further improvements to pdfList.dart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Further improvements to pdfList.dart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="53" key="#Plugins" timestamp="1605245570702">
@@ -275,10 +263,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1605150574404" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606473273613">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606540146201">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606473273613" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606540146201" />
     <state x="89" y="8" width="1350" height="638" key="AVDManager" timestamp="1606463326387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -303,30 +291,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="500" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606223434147" />
-    <state width="1491" height="104" key="GridCell.Tab.0.bottom" timestamp="1606473630252">
+    <state width="1476" height="95" key="GridCell.Tab.0.bottom" timestamp="1606540536222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606473630252" />
-    <state width="1491" height="104" key="GridCell.Tab.0.center" timestamp="1606473630252">
+    <state width="1476" height="95" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606540536222" />
+    <state width="1476" height="95" key="GridCell.Tab.0.center" timestamp="1606540536222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="104" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606473630252" />
-    <state width="1491" height="104" key="GridCell.Tab.0.left" timestamp="1606473630252">
+    <state width="1476" height="95" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606540536222" />
+    <state width="1476" height="95" key="GridCell.Tab.0.left" timestamp="1606540536222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="104" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606473630252" />
-    <state width="1491" height="104" key="GridCell.Tab.0.right" timestamp="1606473630252">
+    <state width="1476" height="95" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606540536222" />
+    <state width="1476" height="95" key="GridCell.Tab.0.right" timestamp="1606540536222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="104" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606473630252" />
+    <state width="1476" height="95" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606540536222" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1606462980656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606462980656" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606295587744">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606476763003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606295587744" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606476763003" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605245884435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -347,5 +335,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="274" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1605246253589" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1606476856001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606476856001" />
   </component>
 </project>
