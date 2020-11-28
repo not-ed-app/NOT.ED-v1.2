@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
-import "./searchedsubjectmodel.dart";
-import "./searchedsubjectdetail.dart";
+import 'searchedsubjectmodel.dart';
+import 'searchedsubjectdetail.dart';
 
 class SearchedSubject extends StatelessWidget {
   final SearchedSubjectModel _uploadedpdf;

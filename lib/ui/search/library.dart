@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import './librarysubjectmodel.dart';
-import './librarysubject.dart';
+import 'librarysubjectmodel.dart';
+import 'librarysubject.dart';
 
 class Library extends StatelessWidget {
   final List _userList = [

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noted_app/ui/screens/landing.dart';
+import 'package:noted_app/ui/landing.dart';
 
 class NotedApp extends StatelessWidget {
   @override

@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
-import "./librarysubjectmodel.dart";
-import "./librarysubjectdetail.dart";
+import 'librarysubjectmodel.dart';
+import 'librarysubjectdetail.dart';
 
 
 class LibrarySubject extends StatelessWidget {

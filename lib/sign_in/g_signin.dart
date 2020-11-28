@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:noted_app/ui/screens/landing.dart';
+import 'package:noted_app/ui/landing.dart';
 
 void main() => runApp(
     MaterialApp(debugShowCheckedModeBanner: false, home: LoginPageWidget()));

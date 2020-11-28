@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:noted_app/ui/screens/pdfList.dart';
-import 'package:noted_app/ui/screens/profile.dart';
-import 'package:noted_app/ui/screens/library.dart';
+import 'landing/pdfList.dart';
+import 'landing/profile.dart';
+import 'search/library.dart';
 
 void main() => runApp(new Landing());
 
