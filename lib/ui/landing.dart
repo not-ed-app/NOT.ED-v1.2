@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'landing/pdfList.dart';
+import 'landing/activity.dart';
 import 'landing/profile.dart';
-import 'search/library.dart';
+import 'landing/home.dart';
 
 void main() => runApp(new Landing());
 
@@ -15,8 +15,8 @@ class Landing extends StatefulWidget {
 class BuildLanding extends State<Landing> {
   int _selectedTab = 1;
   final _pageOptions = [
-    Library(),
-    PDFList(),
+    Home(),
+    Activity(),
     Profile(),
   ];
 
@@ -45,10 +45,8 @@ class BuildLanding extends State<Landing> {
         ),
         body: _pageOptions[_selectedTab],
         bottomNavigationBar: new BottomNavigationBar(
-          // backgroundColor: Colors.grey[900],
           elevation: 10.0,
           selectedItemColor: Colors.deepOrangeAccent,
-          // unselectedItemColor: Colors.grey[400],
           currentIndex: _selectedTab,
           onTap: (int index) {
             setState(() {
