@@ -103,12 +103,11 @@ class Profile extends StatelessWidget {
                               IconData(60073, fontFamily: 'MaterialIcons'))),
                       Padding(
                         padding: const EdgeInsets.only(left: 20.0),
-                        child: GestureDetector(
-                            child: Text(
+                        child: Text(
                           "Upload",
                           style: TextStyle(
                               fontSize: 16.0, fontWeight: FontWeight.w400),
-                        )),
+                        ),
                       ),
                     ],
                   ),
@@ -169,7 +168,6 @@ class Profile extends StatelessWidget {
               //ExternalAppication
               ExternalAppicationLink("Adobe Scan", 0xe879,
                   'https://acrobat.adobe.com/in/en/mobile/scanner-app.html'),
-
               //Line
               Container(
                 margin: const EdgeInsets.only(top: 30.0),
@@ -234,17 +232,12 @@ class Profile extends StatelessWidget {
       ),
     );
   }
+}
 
-  _launchURL(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'Could not launch $url';
-    }
+_launchURL(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
-
-// _getfile() async {
-//   String filePath = await FilePicker.getFilePath(type: FileType.any);
-//   //File file = await FilePicker.getFile();
-// }
 }

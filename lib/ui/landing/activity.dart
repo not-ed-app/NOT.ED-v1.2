@@ -10,7 +10,7 @@ class Activity extends StatelessWidget {
     var brightness = MediaQuery.of(context).platformBrightness;
     bool darkModeOn = brightness == Brightness.dark;
     if (darkModeOn == true) {
-      pdfThumbnailBorder = Colors.grey[800];
+      pdfThumbnailBorder = Colors.grey[900];
     }
     return Scaffold(
       body: StreamBuilder(
@@ -25,7 +25,7 @@ class Activity extends StatelessWidget {
               );
             } else if (!snapshot.hasData) {
               return Center(
-                child: Text("Sorry no items found"),
+                child: Text("Couldn't connect to the server."),
               );
             } else {
               return ListView.builder(
