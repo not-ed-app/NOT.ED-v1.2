@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'profile/about.dart';
 import 'package:url_launcher/url_launcher.dart';
-
-// import 'dart:async';
-// import 'dart:io';
-// import 'package:flutter_plugin_pdf_viewer/flutter_plugin_pdf_viewer.dart';
-// import 'package:file_picker/file_picker.dart';
+import 'profile/upload/upload_notes.dart';
 
 class Profile extends StatelessWidget {
   // ignore: non_constant_identifier_names
@@ -92,7 +88,8 @@ class Profile extends StatelessWidget {
               InkWell(
                 highlightColor: Colors.transparent,
                 splashColor: Colors.transparent,
-                // onTap: ,
+                onTap: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) =>UploadNotes())),
                 child: Container(
                   margin: const EdgeInsets.only(top: 30.0, left: 25.0),
                   child: Row(
